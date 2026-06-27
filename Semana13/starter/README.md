@@ -165,10 +165,6 @@ WHERE NOT EXISTS (
 └── README.md               
 ```
 
-> **Nota:** este script está en sintaxis PostgreSQL (`SERIAL`/`INTEGER`,
-> `::text`, etc.) y debe ejecutarse contra PostgreSQL vía Docker, no contra
-> SQLite. Si tu profesor usa otro nombre de contenedor o base de datos,
-> ajusta `-U bootcamp -d bootcamp_db` según tu `docker-compose.yml`.
 
 ---
 
